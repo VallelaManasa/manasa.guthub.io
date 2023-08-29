@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel India</title>
+    <link rel="stylesheet" href="one.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: url("https://webunwto.s3.eu-west-1.amazonaws.com/2022-01/making-tourism-stronger-and-ready-for-the-future_0.jpg?VersionId=TVw01pVgj36eqWdGc4MwtC25QZwk4hcB");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Dancing Script', cursive;
+            height:100px;
+        }
+        h1{
+            font-size: 70px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            color: white;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 500px;
+            padding-left: 40px;
+            width: 320px;
+        }
+        .dir{
+            height: 50px;
+            width: 270px;
+            border-width: 2px;
+            border-color:rgba(250, 227, 175);
+            border-radius: 10px;
+            border-style: solid;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+            background-color: rgba(250, 227, 175, 0.601);
+        }
+        .dir:hover{
+            background-color:rgba(250, 227, 175);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(75, 11, 11);
+        }
+        ul{
+            height: 400px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            background-color:rgba(250, 227, 175);
+            border-width: 2px;
+            border-color: black;
+            border-radius: 10px;
+            border-style: solid;
+            padding-right: 30px;
+           
+        }
+        li{
+            list-style-type: none;
+        }
+        .options{
+            position: relative;
+            left: 400px;
+            top: -470px;
+            width: 350px;
+           
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+        }
+        #opt1, #opt2, #opt3, #opt4{
+            display: none;
+        }
+        .main{
+            height: 500px;
+            width: 800px;
+            position: relative;
+            left: 500px;
+            top: -550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+           
+        }
+        .text{
+            border-radius: 10px;
+            height: 200px;
+            width: 800px;
+            float: right;
+        }
+        .booking ,.contacts{
+            border: 2px solid ;
+            background-color: rgba(250, 227, 175, 0.601);
+            border-color:rgba(250, 227, 175);
+            border-radius: 10px;
+            position: relative;
+            width: 350px;
+            height: 180px;
+            padding: 10px;
+        }
+        .box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            width: 800px;
+            height: 300px;
+        }
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .text > p{
+            font-size: 40px;
+        }
+        button{
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <img src="http://www.jabatowisata.com/index/jabato/files/tour-india-travel-logo.jpg" style="height: 80px;width: 80px;"><span>Travel India<i class="fa fa-plane" style="font-size:54px;"></i></span>
+    </h1>
+    <div class="container">
+        <button class="dir" id="dir1">North India</button>
+        <button class="dir" id="dir2">East India</button>
+        <button class="dir" id="dir3">West India</button>
+        <button class="dir" id="dir4">South India</button>
+    </div>
+    <div class="options">
+        <div id="opt1">
+            <ul>
+                <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/Taj-Mahal-1200x849.jpg" alt="Tajamahal"><li><a href="Tajmahal.html">Taj Mahal</a></li>
+                <img src="https://earthnworld.com/wp-content/uploads/2020/05/ladakh.jpg" alt="Ladakh"><li><a href="Ladakh.html">Ladakh</a></li>
+                <img src="https://holidaybays.com/wp-content/uploads/2015/10/places-to-visit-in-Varanasi-India.jpg" alt="Varanasi"><li><a href="Varanasi.html">Varanasi</a></li>
+            </ul>
+        </div>
+        <div id="opt2">
+            <ul>
+                <img src="https://procaffenation.com/wp-content/uploads/2017/04/beautiful-view-of-howrah-bridge-at-evening-compressor.jpg" alt="HowrahBridge"><li><a href="Howrah.html">Howrah Bridge</a></li>
+                <img src="https://wallpapercave.com/wp/wp6191565.jpg" alt="Darjeeling"><li><a href="Darjeeling.html">Darjeeling</a></li>
+                <img src="https://www.thetoptours.com/wp-content/uploads/sun-temple-konark-1.jpg" alt="Konark Sun Temple"><li><a href="Konark.html">Konark Sun Temple</a></li>
+            </ul>
+        </div>
+        <div id="opt3">
+            <ul>
+                <img src="https://wallpapercave.com/wp/wp9401269.jpg" alt="Ajantha and Ellora"><li><a href="Ajantha.html">Ajantha & Ellora</a></li>
+                <img src="https://www.picnicwale.com/attractions/assets/sightseeing/city-palace-in-jaipur-rajasthan-banner.jpg" alt="Jaipur Palace"><li><a href="Jaipur.html">Jaipur Palace</a></li>
+                <img src="https://www.trawell.in/admin/images/upload/162482708Mahabaleshwar_Arthur_%20Seat_Point_Main.jpg" alt="Mahabaleswar"><li><a href="Maha.html">Mahabaleswar</a></li>
+            </ul>
+        </div>
+        <div id="opt4">
+            <ul>
+                <img src="https://www.re-thinkingthefuture.com/wp-content/uploads/2020/04/A787-Pondicherry-Image-1.jpg" alt="Pondicherry"><li><a href="Pondicherry.html">Pondicherry</a></li>
+                <img src="https://www.savaari.com/blog/wp-content/uploads/2021/05/Araku-Valley7-waterfalls.jpg" alt="Araku"><li><a href="Araku.html">Araku</a></li>
+                <img src="https://www.sreestours.com/wp-content/uploads/2021/06/padmanabha-temple.jpg" alt="Padmanabhaswamy Temple"><li><a href="Padma.html">Padmanabhaswamy Temple</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main" class="main">
+        <div class="text">
+            <p>"Come, experience the timeless beauty of Indian Tourism with TravelIndia..."<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-India, where every corner narrates a tale....</p>
+        </div>
+        <div class="box">
+            <div class="booking">
+                <h3>Book now</h3>
+                <p><i style="font-size:24px" class="fa">&#xf0d6;</i>&nbsp;&nbsp;&nbsp;Price : 5000/- to 15000/-</p>
+                <p><i style="font-size:24px" class="fa">&#xf017;</i>&nbsp;&nbsp;&nbsp;Duration : 10-15 days</p>
+                <p>To book a trip Contact Us...</p>
+            </div>
+            <div class="contacts">
+                <h3>Contact Us</h3>
+                <p><i style="font-size:24px" class="fa">&#xf095;</i>&nbsp;&nbsp;&nbsp;Mobile : 9836258934</p>
+                <p><i style="font-size:24px" class="fa">&#xf003;</i>&nbsp;&nbsp;&nbsp;e-mail : travelindia@gmail.com</p>
+                <p><i style="font-size:24px" class="fa">&#xf041;</i>&nbsp;&nbsp;&nbsp;Address : 5-163,Delhi,India</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("dir1").addEventListener("click",function north(){
+            opt1.style.display="block";
+            opt2.style.display="none";
+            opt3.style.display="none";
+            opt4.style.display="none";
+            main.style.display="none";
+        });
+        document.getElementById("dir2").addEventListener("click",function east(){
+            opt1.style.display="none";
+            opt2.style.display="block";
+            opt3.style.display="none";
+            opt4.style.display="none";
+            main.style.display="none";
+        });
+        document.getElementById("dir3").addEventListener("click",function west(){
+            opt1.style.display="none";
+            opt2.style.display="none";
+            opt3.style.display="block";
+            opt4.style.display="none";
+            main.style.display="none";
+        });
+        document.getElementById("dir4").addEventListener("click",function south(){
+            opt1.style.display="none";
+            opt2.style.display="none";
+            opt3.style.display="none";
+            opt4.style.display="block";
+            main.style.display="none";
+        });
+    </script>
+</body>
+</html>
